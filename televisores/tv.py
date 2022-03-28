@@ -40,7 +40,7 @@ class TV:
     
     def setCanal(self,canal):
         if self._estado==True:
-            if canal>=120 and canal<=1:
+            if canal<=120 and canal>=1:
                 self._canal=canal
     def getCanal(self):
         return self._canal
