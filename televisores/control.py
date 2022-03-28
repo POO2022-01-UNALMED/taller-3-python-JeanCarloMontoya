@@ -3,7 +3,6 @@ class Control:
         self._tv=0
     
     def enlazar(self,tv):
-        if type(tv)==TV:
             self._tv=tv
             self._tv.control=self
 
